@@ -4,9 +4,181 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        max-width: 650px;
+        }
+
+        body {
+        background-image: url("background-image.jpg");
+        background-size: auto;
+        background-repeat: repeat;
+        }
+
+        @media only screen and (max-width: 1000px){
+        .container {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        }
+        }
+
+        P.team11 {
+        font-family: 'Segoe UI', Consolas;
+        color: #d9ff02;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        background-image: url("Team11Background.jpg");
+        background-size: 1000px;
+        background-repeat: repeat;
+        }
+    </style>
     <title>Team 11 HAMK 2023 Aisha Rushani Shreya Quang</title>
 </head>
 <body>
-    
+
+<!--this "top menu" will be copied to all segments-->
+<header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center mx-auto">
+          <h1 class="header-text">AMARILLO team 11 Restaurant</h1>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">AMARILLO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reservation">Reservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#suggestion">Suggestion</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+</header>  
+<!--this is the "home page"-->
+
+      <div class="container" id="home">
+        <div class="row">
+          <div class="col-md-4 mx-auto">
+            <div id="map"></div>
+            <p>Tel: +358 12 345 6789</p>
+            <p>Email: team11@hamk.fi</p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          </div>
+          <div class="col-md-8 mx-auto">
+            <div class="row">
+              <div class="col-md-4 mx-auto">
+                <a href="#photo1">
+                  <img src="photo1.jpg" alt="photo 1">
+                </a>
+                <div id="photo1" class="modal">
+                  <img src="photo1.jpg" alt="photo 1">
+                  <div class="modal-text">
+                    <p>Team 11 photo 1</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mx-auto">
+                <a href="#photo2">
+                  <img src="photo2.jpg" alt="photo 2">
+                </a>
+                <div id="photo2" class="modal">
+                  <img src="photo2.jpg" alt="photo 2">
+                  <div class="modal-text">
+                    <p>Team 11 photo 2</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+<!--this is the "menu page"-->  
+      <div class="container" id="menu">
+        <div class="row">
+          <div class="col-md-6">
+             <p>Yummi, your party starts here</p>
+          </div>
+          <div class="col-md-6">
+            <p>Photo goes here</p>
+          </div>
+        </div>
+      </div>
+<!--this is the "reservation page"--> 
+      <div class="container" id="reservation">
+        <div class="row">
+          <div class="col-md-6">
+             <p>Just call us + 358 12 345 6789 for reservation</p>
+          </div>
+          <div class="col-md-6">
+            <p>Photo goes here</p>
+          </div>
+        </div>
+      </div>
+<!--this is the "contact page"--> 
+      <div class="container" id="contact">
+        <div class="row">
+          <div class="col-md-6">
+            <p>Tel: +358 12 345 6789</p>
+            <p>Email: team11@hamk.fi</p>
+          </div>
+          <div class="col-md-6">
+            <p>Photo goes here</p>
+          </div>
+        </div>
+      </div>
+<!--this is the "suggestion page"-->  
+      <div class="container" id="suggestion">
+        <div class="row">
+          <div class="col-md-6">
+            <p>Textbox, email, phone...</p>
+          </div>
+          <div class="col-md-6">
+            <p>Photo goes here</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container" id="about">
+        <div class="row">
+          <div class="col-md-6">
+            <p> Amarillo brings friends and strangers together and makes the gang feel comfortable around the same table. In terms of style, Amarillo is fresh and fair, uncomplicated and energetic. The menu offers plenty of fresh flavors without forgetting the best favourites. And of course, there is also a throat moistener and a nice feeling. If you want a unique experience, you should reserve a seat at The Table. The whole evening's experience offers treats, entertainment and lots of happy surprises!</p>
+          </div>
+          <div class="col-md-6">
+            <p>Photo goes here</p>
+            <a>
+                <img src="about.png" alt="about">
+            </a>
+          </div>
+        </div>
+      </div>    
+
 </body>
 </html>

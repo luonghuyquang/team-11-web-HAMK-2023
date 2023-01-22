@@ -14,10 +14,11 @@ body{
     color: blue;
     width: 60%;
 }
-@media (max-width: 450px){
+
     .wrapper {
              width: 95%;
              }
      
-         }
+
+         
 

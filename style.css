@@ -1,0 +1,23 @@
+body{
+    background-color: white;
+}
+.left{
+    float: left;
+    color: brown;
+    width: 30%;
+    border-style: solid;
+    border-color: black;
+}
+
+.right{
+    float: right;
+    color: blue;
+    width: 60%;
+}
+@media (max-width: 450px){
+    .wrapper {
+             width: 95%;
+             }
+     
+         }
+

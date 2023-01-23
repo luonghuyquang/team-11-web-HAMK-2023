@@ -1,5 +1,4 @@
 body{
-<<<<<<< Updated upstream
   background-color:#C2CAD0 ;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
@@ -10,14 +9,6 @@ body{
     float: left;
     color: brown;
     width: 15%;
-=======
-    background: color #c2cad0;;
-}
-.left{
-    float: left;
-    color: rgb(24, 1, 1);
-    width: 30%;
->>>>>>> Stashed changes
     text-align: center;
     margin-left: 2%;
 }

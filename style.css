@@ -1,11 +1,25 @@
 body{
-    background-color:white;
-}
+<<<<<<< Updated upstream
+  background-color:#C2CAD0 ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: rgb(37, 2, 2);
+ }
+
 .left{
     float: left;
     color: brown;
+    width: 15%;
+=======
+    background: color #c2cad0;;
+}
+.left{
+    float: left;
+    color: rgb(24, 1, 1);
     width: 30%;
+>>>>>>> Stashed changes
     text-align: center;
+    margin-left: 2%;
 }
 
 .right{
@@ -13,9 +27,15 @@ body{
     color: blue;
     width: 60%;
 }
+.center{
+  float: center;
+  color: blue;
+  width: 15%;
+}
 
-    .wrapper {
+    .container {
              width: 95%;
+           /*  background-color: rgb(187, 195, 201);*/
              }
      
 #myh1{
@@ -53,8 +73,9 @@ body{
     clear: both;
     display: table;
   }
+
   #img1{
-    height: 194px;
+    height: 150px;
   }
   #img2{
     height: 208px;

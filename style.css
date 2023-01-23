@@ -8,14 +8,20 @@ body{
 .left{
     float: left;
     color: brown;
-    width: 30%;
+    width: 15%;
     text-align: center;
+    margin-left: 2%;
 }
 
 .right{
     float: right;
     color: blue;
     width: 60%;
+}
+.center{
+  float: center;
+  color: blue;
+  width: 15%;
 }
 
     .container {
@@ -58,8 +64,9 @@ body{
     clear: both;
     display: table;
   }
+
   #img1{
-    height: 194px;
+    height: 150px;
   }
   #img2{
     height: 208px;

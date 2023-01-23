@@ -1,6 +1,10 @@
 body{
-    background-color:white;
-}
+  background-color:#C2CAD0 ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  color: rgb(37, 2, 2);
+ }
+
 .left{
     float: left;
     color: brown;
@@ -14,8 +18,9 @@ body{
     width: 60%;
 }
 
-    .wrapper {
+    .container {
              width: 95%;
+           /*  background-color: rgb(187, 195, 201);*/
              }
      
 #myh1{

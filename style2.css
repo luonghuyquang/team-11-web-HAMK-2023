@@ -49,7 +49,7 @@ img {
 }
 .font{
     font-family: 'Tahoma';
-    font-size: 30px;
+    font-size: 16px;
 }
 
 .bg-none {
@@ -85,7 +85,6 @@ img {
     font-weight: 500;
     font-size: 40px;
 }
-<<<<<<< HEAD
                 .mapouter {
                   position: relative;
                   text-align: center;
@@ -100,56 +99,3 @@ img {
                   height: 500px;
                   width: 600px;
                 }
-=======
-
-  
-  div.gallery:hover {
-    background-color: #bc4639 !important;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: 200px;
-    margin-bottom: 10px;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 31%;
-  }
-  
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-  }
-  
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .btn{
-    background-color: #bc4639;
-    border-color: #bc4639;
-  }
-
->>>>>>> 2044320935f369200ab7a9d57aa07111e796baf2

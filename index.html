@@ -12,19 +12,19 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
-  <!--Local CSS files to be merged together-->
-  <link rel="stylesheet" href="style2.css" />
-  <link rel="stylesheet" href="style_nav_bar.css">
     <!--
   <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
     -->
+  <!--What is this cloudflare link for? no integrity or crossorigin-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!--bootstrap JS code-->  
-
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Tangerine&display=swap" rel="stylesheet">
+
+    <!--Local CSS files to be merged together-->
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style_nav_bar.css">
 </head>
 
 <body>
@@ -32,7 +32,6 @@
 
 <!--This is the Header part, it has the top navigation links-->
 <header>
-
   <nav class="navbar navbar-expand-sm">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Team 11</a>
@@ -57,12 +56,10 @@
             <li class="nav-item">
               <a class="nav-link" href="about.html">About Us</a>
             </li>
-  
         </ul>
       </div>
     </div>
   </nav>
-
 </header>
 <!--End of Header part-->
 
@@ -72,36 +69,16 @@
       <div id="carouselExample" class="carousel slide" bis_skin_checked="1">
         <div class="carousel-inner" bis_skin_checked="1">
           <div class="carousel-item active" bis_skin_checked="1">
-            <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777"></rect>
-            <text x="50%" y="50%" fill="#555" dy=".3em">First slide</text>
-          </svg> -->
+
             <img class="d-block w-100" src="images/image.jpg" alt="First slide" />
 
           </div>
           <div class="carousel-item" bis_skin_checked="1">
-            <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#666"></rect>
-            <text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text>
-          </svg> -->
-            <img class="d-block w-100" src="images/RP2.jpg" alt="Third slide" />
+
+            <img class="d-block w-100" src="images/dinner.jpg" alt="Third slide" />
 
           </div>
-          <!-- <div class="carousel-item active" bis_skin_checked="1">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#555"></rect>
-            <text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text>
-          </svg>
-        </div> -->
+
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -121,10 +98,61 @@
       <div class="container">
         <div class="row align-items-start">
           <div class="col ">
-            <iframe src="ifram.html" style="
-              height: 500px;
-              width: 100%;
-            " title="Iframe Example"></iframe>
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_self" href="images/pancakes.jpg">
+                  <img src="images/pancakes.jpg" alt="Cinque Terre" width="600" height="200">
+                </a>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_self" href="images/dish2.jpg">
+                  <img src="images/dish2.jpg" alt="Forest" width="600" height="200">
+                </a>
+              </div>
+            </div>
+
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_self" href="images/kotiliesi.webp">
+                  <img src="images/kotiliesi.webp" alt="Northern Lights" width="600" height="200">
+                </a>
+              </div>
+            </div>
+
+            <div class="clearfix"></div>
+            <div>
+              <div class="responsive">
+                <div class="gallery">
+                  <a target="_self" href="images/soup.webp">
+                    <img src="images/soup.webp" alt="Forest" width="600" height="200">
+                  </a>
+                </div>
+              </div>
+
+              <div class="responsive">
+                <div class="gallery">
+                  <a target="_self" href="images/sweet.jpg">
+                    <img src="images/sweet.jpg" alt="Northern Lights" width="600" height="200">
+                  </a>
+                </div>
+              </div>
+              <div class="responsive">
+                <div class="gallery">
+                  <a target="_self" href="images/coffee.jpg">
+                    <img src="images/coffee.jpg" alt="Northern Lights" width="600" height="200">
+                  </a>
+                </div>
+              </div>
+
+              <div class="clearfix"></div>
+            </div>
+            <div>
+              <a href="Menu.html">
+              <button type="button" class="btn btn-primary btn-lg">View more</button>
+            </div>
+          </a>
           </div>
           <div class="col item">
             <h3 class="bold" style="font-size: 60px;">Your party, our passion <br> <i>123456789</i></h3>
@@ -152,7 +180,7 @@
           <div class="col-md-6">
             <h3>
               <div class="bold">
-                Cuisine: Authentic finnish, European
+                Cuisine: Authentic Finnish, European
               </div>
               <div class="bold">
                 Timming: 07:00-22:00 Mon-Sun

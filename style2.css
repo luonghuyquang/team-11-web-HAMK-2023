@@ -78,6 +78,12 @@ p{
     font-size: 15px;
 }
 
+form{
+  background-color: #bd655d;
+  padding: 5%;
+  padding-bottom: 10%;
+  border-radius: 20px;
+}
 
 .bg-none {
     background: none;
@@ -115,7 +121,7 @@ p{
 
   
   div.gallery:hover {
-    background-color: #5C2018;
+    background-color: #bc4639 !important;
   }
   
   div.gallery img {
@@ -159,7 +165,7 @@ p{
   }
 
   .btn{
-    background-color: #5C2018;
-    border-color: #5C2018;
+    background-color: #bc4639;
+    border-color: #bc4639;
   }
 

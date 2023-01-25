@@ -53,24 +53,25 @@
       </nav>
     </div>
     <!--header page-->
-    <div class="container">
+    
+    <div class="container" style="padding: 20px;">
       <div class="col-md-12 text-center mx-auto">
-        <h1 class="header-text"> Reservation - AMARILLO team 11 Restaurant</h1>
+        <h1 class="header-text"> Reservation</h1>
       </div>
-
     </div>
     </div>
   </header>
 
   <!--this is the "reservation page"-->
+  <div class="text-center content-helper font bg-none">
   <div class="container" id="reservation">
 
     <div class="row">
       <div class="col-md-6">
-        <p><i class="fa fa-map-marker" style="font-size:24px"></i> Vankanlähde 9, 13100 Hämeenlinna <br>
+        <p><i class="fa fa-map-marker" style="font-size:24px"></i> Aleksanterinkatu 46, 00100 Helsinki <br>
           <i class="fa fa-phone" style="font-size:24px;"></i> + 358 12 345 6789 for reservation, or select an option
           <br>
-          <i class="fa fa-envelope" style="font-size:24px;"></i> team11@student.hamk.fi
+          <i class="fa fa-envelope" style="font-size:24px;"></i> amarillo@gmail.com
         </p>
         <a class="btn btn-primary" href="tel:+358 12 345 6789"><i class="fa fa-phone"
             style="font-size:20px;color:rgb(228, 255, 23)"></i> Call us</a>
@@ -83,39 +84,61 @@
         <a class="btn btn-success" href="https://goo.gl/maps/ohFBTacuxRYwYH8w8"><i class="fa fa-bus"
             style="font-size:18px;"></i> <i class="fa fa-cab" style="font-size:18px;"></i> <i class="fa fa-car"
             style="font-size:18px;"></i> How to get here </a> <br><br>
-
-       
       </div>
       <div class="col-md-6">
-        <br>
-        <a class="btn btn-warning" href="Menu.html" role="button">Preview items from our Menu</a>
-        <form>
-          <br>
-          <label for="name">Your Name:</label>
-          <input type="text" id="name" name="name" required>
-          <br>
-          <label for="name">Your Request (Theme/Decoration, Diet etc.):</label>
-          <input type="text" id="name" name="name" required>
-          <br>
-          <label for="email">Your Email:</label>
-          <input type="email" id="email" name="email" required>
-          <br>
-          <label for="phone">Your Phone Number:</label>
-          <input type="tel" id="phone" name="phone" required>
-          <br>
-          <label for="date">Date:</label>
-          <input type="date" id="date" name="date" required>
-          <br>
-          <label for="time">Time:</label>
-          <input type="time" id="time" name="time" required>
-          <br>
-          <label for="party-size">Number of people:</label>
-          <input type="number" id="party-size" name="party-size" min="1" max="10" required>
-          <br>
-          <input type="submit" value="Submit Your Reservation">
-        </form>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12">
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">First Name</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Last Name</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Phone Number</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputDate" class="form-label">Date:</label>
+                  <br>
+                  <input type="date" class="form-control" id="inputCity" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Time</label>
+                  <input type="time" class="form-control" id="time">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Number of people </label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Special Request</label>
+                  <input type="text" class="form-control" id="input">
+                </div>
+               
+                <div class="row" style="padding-top: 20px;">
+                  <div class="col-md-12">
+                    <button type="button" class="btn btn-primary btn-lg">Submit</button>
+                  </div>
+                </div>
+             
+              </form>
+              
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
+</div>
     <!--Footer-->
     <footer class="footer text-center content-helper bg-none">
       <div class="container">
@@ -169,7 +192,7 @@
     </footer>
     <!--footer-->
 
-  </div>
+  
 
 </body>
 

@@ -3,14 +3,16 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
   color: rgb(37, 2, 2);
- }
+  font-family: 'Permanent Marker', cursive;
 
+ }
+*/
 .left{
     float: left;
     color: brown;
     width: 15%;
     text-align: center;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 .right{

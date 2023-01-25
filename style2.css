@@ -2,10 +2,13 @@ body {
     margin: auto;
     background-color: #D4A59A;
     font-size: larger;
+    width: 98%;
 }
 
 .navbar {
     background-color: #5C2018 !important;
+    font-family: 'Permanent Marker', cursive;
+    font-size: medium;
 }
 
 .navbar a {

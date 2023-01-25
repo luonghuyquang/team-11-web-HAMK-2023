@@ -3,6 +3,9 @@ body {
     margin-bottom: 20px;
     background-color: #D4A59A;
     font-size: larger;
+    width: 98%;
+    height: 98%;
+    font-family: 'Permanent Marker', cursive;
     
 }
 .wrapper{
@@ -19,10 +22,7 @@ p{
     font:geogia;
     font-size: 25px;
 }
-nav ul {
-    margin: 0 20px;
-    padding-right: 20px;
-}
+
 .bg-none {
     background: none;
 }

@@ -1,0 +1,52 @@
+body {
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #D4A59A;
+    font-size: larger;
+    
+}
+.wrapper{
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+h1{
+    font-family: 'Brush Script MT';
+    font-size: 40px;
+}
+p{
+    font:geogia;
+    font-size: 25px;
+}
+nav ul {
+    margin: 0 20px;
+    padding-right: 20px;
+}
+.bg-none {
+    background: none;
+}
+
+.footer {
+    color: white;
+    background-color: #5C2018;
+}
+
+.footer .link {
+    color: white;
+}
+
+.btn-social {
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold{
+    font-weight: 500;
+    font-size: 40px;
+}

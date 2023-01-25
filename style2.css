@@ -3,13 +3,16 @@ body {
     margin-bottom: 20px;
     background-color: #D4A59A;
     font-size: larger;
+    width: 1200px;
 
 }
+
 
 nav ul {
     margin: 0 20px;
     padding-right: 20px;
 }
+
 
 img {
     width: 100%;
@@ -52,10 +55,15 @@ img {
     color: black;
     
 }
-.font{
-    font-family: 'Tangerine', cursive;
-    font-size: 30px;
+h3{
+    font-family: 'Brush Script MT';
+    font-size: 20px;
 }
+p{
+    font:Garamond, serif;
+    font-size: 15px;
+}
+
 
 .bg-none {
     background: none;

@@ -14,13 +14,15 @@ body{
 
 .right{
     float: right;
-    color: blue;
+    color:brown;
     width: 60%;
+    
 }
 .center{
   float: center;
-  color: blue;
+  color:brown;
   width: 15%;
+  text-align: center;
 }
 
     .container {
@@ -48,6 +50,7 @@ body{
     content: "";
     clear: both;
     display: table;
+    
   }
     
   .column2 {
@@ -67,8 +70,28 @@ body{
   #img1{
     height: 150px;
   }
-  #img2{
-    height: 208px;
+  
+  .menu:link {
+    text-decoration: none;
+    color:brown;
+  }
+  
+  .menu:visited {
+    text-decoration: none;
+    color:brown;
+  }
+  
+  .menu:hover {
+    text-decoration:none;
+    color:#f0ce21 ;
+  }
+  
+  .menu:active {
+    text-decoration: none;
+    color:#f7ff03;
+  }
+  p{
+    text-align: center;
   }
   
          

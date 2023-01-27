@@ -18,10 +18,30 @@
 <!--local css to merge-->
     <link rel="stylesheet" href="style2.css" />
     <link rel="stylesheet" href="style_nav_bar.css">
+
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("myBtn").style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+
 </head>
 
 <body>
-
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>  
 <!--This is the Header part, it has the top navigation links-->
 <header>
   <nav class="navbar navbar-expand-sm">
@@ -43,7 +63,7 @@
               <a class="nav-link active" href="reservation.html">Reservation</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="reservation.html">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
@@ -81,7 +101,7 @@
         <a class="btn btn-success" href="https://goo.gl/maps/ohFBTacuxRYwYH8w8"><i class="fa fa-bus"
             style="font-size:18px;"></i> <i class="fa fa-cab" style="font-size:18px;"></i> <i class="fa fa-car"
             style="font-size:18px;"></i> How to get here </a> <br><br>
-        <img class="d-block w-100" src="images/party.jpg" alt="First slide" style="object-fit: contain; width: 100%; height: auto;"/><br><br>
+        <img class="d-block w-100" src="images/party.jpg" alt="Party Reservation" style="object-fit: contain; width: 100%; height: auto;"/><br><br>
       </div>
       <div class="col-md-6">
         <div class="container">
@@ -141,7 +161,7 @@
   </div>
 </div>
     <!--Footer-->
-    <footer class="footer text-center content-helper bg-none">
+    <footer class="footer text-center content-helper bg-none" id="footer">
       <div class="container">
         <div class="row">
           <!-- Footer Location-->

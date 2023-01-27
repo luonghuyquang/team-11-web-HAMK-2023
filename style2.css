@@ -5,7 +5,15 @@ body {
     width: 98%;
 }
 
-
+/*new font for the headers and paragraph*/
+h3,h1{
+    font-family: 'Brush Script MT';
+    font-size: 20px;
+}
+p{
+    font:Garamond, serif;
+    font-size: 15px;
+}
 img {
     width: 100%;
     height: 500px;
@@ -59,6 +67,7 @@ img {
 .footer {
     color: white;
     background-color: #5C2018;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .footer .link {

@@ -32,6 +32,7 @@ body{
      
 #myh1{
     text-align: center;
+    
 }
 
 * {
@@ -69,6 +70,7 @@ body{
 
   #img1{
     height: 150px;
+    max-width:100%;
   }
   
   .menu:link {
@@ -92,7 +94,45 @@ body{
   }
   p{
     text-align: center;
+    
   }
+  @media only screen and (max-width: 620px) {
   
-         
+    .left, .center {
+      width: 100%;
+      display: none;
+    }
+    .Un-order{
+      display:b;
+    }
+              
+    li{
+      display: inline;
+    }
+               
+    
+     .right {
+      width: 100%;
+      display: contents;
+
+    }
+    #img1{
+      height: 100px;
+      max-width:100%;
+    }
+    iframe{
+      width: 95%;
+    }
+  } 
+
+  @media only screen and (min-width: 620px) {
+  
+    .Un-order{
+      display: none;
+    
+    }
+    
+  }
+
+
 

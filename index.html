@@ -12,163 +12,156 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
-    <!--
+  <!--
   <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
     -->
   <!--What is this cloudflare link for? no integrity or crossorigin-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Tangerine&display=swap" rel="stylesheet">
 
-    <!--Local CSS files to be merged together-->
-    <link rel="stylesheet" href="style2.css" />
-    <link rel="stylesheet" href="style_nav_bar.css">
+  <!--Local CSS files to be merged together-->
+  <link rel="stylesheet" href="style2.css" />
+  <link rel="stylesheet" href="nav.css">
 </head>
 
 <body>
   <div>
 
-<!--This is the Header part, it has the top navigation links-->
-<header>
-  <nav class="navbar navbar-expand-sm">
-    <div class="container-fluid">
-      <a class="navbar-brand">Team 11 Best Restaurant in Hämeenlinna</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-  
-          <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Menu.html">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="reservation.html">Reservation</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="reservation.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="fi.html">FI</a>
-            </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
-<!--End of Header part-->
-
-    <!--RestAurant photo-->
-    <div>
-      <img class="d-block w-100" src="images/delicious.jpg" alt="First slide" style="object-fit: contain; width: 100%; height: auto;"/>
-      <div id="carouselExample" class="carousel slide" bis_skin_checked="1">
-        <div class="carousel-inner" bis_skin_checked="1">
-          <div class="carousel-item active" bis_skin_checked="1">
-
-            <img class="d-block w-100" src="davide-cantelli-jpkfc5_d-DI-unsplash.jpg" alt="First slide" style="object-fit: contain; width: 100%; height: auto;"/>
-
+    <!--This is the Header part, it has the top navigation links-->
+    <header>
+      <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand">Team 11 </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="reservation.html">Reservation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
           </div>
-          <div class="carousel-item" bis_skin_checked="1">
-
-            <img class="d-block w-100" src="images/dinner.jpg" alt="Third slide" />
-
-          </div>
-
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
+      </nav>
+    </header>
+      <!--End of Header part-->
 
-    <br />
-    <br />
-    <!--iframe Menu-->
-    <div class="text-center content-helper font bg-none">
-      <div class="container">
-        <div class="row align-items-start">
-          <div class="col ">
-            <div class="responsive">
-              <div class="gallery">
-                <a target="_self" href="images/pancakes.jpg">
-                  <img src="images/pancakes.jpg" alt="Cinque Terre" width="600" height="200">
-                </a>
-              </div>
-            </div>
-            <div class="responsive">
-              <div class="gallery">
-                <a target="_self" href="images/dish2.jpg">
-                  <img src="images/dish2.jpg" alt="Forest" width="600" height="200">
-                </a>
-              </div>
-            </div>
-
-            <div class="responsive">
-              <div class="gallery">
-                <a target="_self" href="images/kotiliesi.webp">
-                  <img src="images/kotiliesi.webp" alt="Northern Lights" width="600" height="200">
-                </a>
-              </div>
-            </div>
-
-            <div class="clearfix"></div>
-            <div>
-              <div class="responsive">
-                <div class="gallery">
-                  <a target="_self" href="images/soup.webp">
-                    <img src="images/soup.webp" alt="Forest" width="600" height="200">
-                  </a>
-                </div>
-              </div>
-
-              <div class="responsive">
-                <div class="gallery">
-                  <a target="_self" href="images/sweet.jpg">
-                    <img src="images/sweet.jpg" alt="Northern Lights" width="600" height="200">
-                  </a>
-                </div>
-              </div>
-              <div class="responsive">
-                <div class="gallery">
-                  <a target="_self" href="images/coffee.jpg">
-                    <img src="images/coffee.jpg" alt="Northern Lights" width="600" height="200">
-                  </a>
-                </div>
-              </div>
-
-              <div class="clearfix"></div>
-            </div>
-            <div>
-              <a href="Menu.html">
-              <button type="button" class="btn btn-primary btn-lg">View more</button>
-            </div>
-          </a>
+      <!-- slider -->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/RP.jpg" class="d-block w-100" alt="image" >
           </div>
-          <div class="col item">
-            <h3 class="bold" style="font-size: 60px;">Your party, our passion <br> <i>123456789</i></h3>
-            <div>
-              <p> <i>In our bid to deliver authentic, undiluted experiences, we’ve introduced a
-                unique regional home style
-                dining experience. Always prepared with a local touch, the home-style cooking ensures that you maintain
-                good health throughout. And at the same time it gives you the opportunity to dabble in the
-                local
-                delicacies.
-              <b>call us +358 12 345 6789</b>
-              </i>
-              </p>
+          <div class="carousel-item">
+            <img src="images/RP2.jpg" class="d-block w-100" alt="image2" >
+          </div>
+          <div class="carousel-item">
+            <img src="images/RP3.jpg" class="d-block w-100" alt="image3" >
+          </div>
+        </div>
+      </div>
+      <!-- slider -->
+      <!--photo-->
+      <div class="text-center content-helper font bg-none">
+        <div class="container">
+          <div class="row align-items-start">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="responsive">
+                    <div class="gallery">
+                      <a target="_self" href="images/pancakes.jpg">
+                        <img src="images/pancakes.jpg" alt="Cinque Terre" width="600" height="200">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="responsive">
+                    <div class="gallery">
+                      <a target="_self" href="images/dish2.jpg">
+                        <img src="images/dish2.jpg" alt="Cinque Terre" width="600" height="200">
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="responsive">
+                    <div class="gallery">
+                      <a target="_self" href="images/kotiliesi.webp">
+                        <img src="images/kotiliesi.webp" alt="Cinque Terre" width="600" height="200">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="responsive">
+                    <div class="gallery">
+                      <a target="_self" href="images/soup.webp">
+                        <img src="images/soup.webp" alt="Cinque Terre" width="600" height="200">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="responsive">
+                    <div class="gallery">
+                      <a target="_self" href="images/sweet.jpg">
+                        <img src="images/sweet.jpg" alt="Cinque Terre" width="600" height="200">
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="responsive">
+                    <div class="gallery">
+                      <a target="_self" href="images/coffee.jpg">
+                        <img src="images/coffee.jpg" alt="Cinque Terre" width="600" height="200">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="col-md-6 item">
+              <h1 class="title">Your party, our passion</h1>
+              <div>
+                <p> In our bid to deliver authentic, undiluted experiences, we’ve introduced a
+                  unique regional home style
+                  dining experience. Always prepared with a local touch, the home-style cooking ensures that you
+                  maintain
+                  good health throughout. And at the same time it gives you the opportunity to dabble in the
+                  local
+                  delicacies.
+                </p>
+              </div>
+              <div>
+                <a href="Menu.html">
+                <button type="button" class="btn btn-primary btn-lg">View Menu</button>
+              </a>
+              </div>
             </div>
           </div>
         </div>
@@ -179,14 +172,15 @@
     <div class="text-center content-helper font">
       <div class="container">
 
-        <div class="row">
-          <div class="col-md-6">
+        <div class="row" >
+          <div class="col-md-6 padding-bottom-30px">
             <h3>
               <div class="bold">
                 Cuisine: Authentic Finnish, European
               </div>
+              <hr>
               <div class="bold">
-                Timming: 07:00-22:00 Mon-Sun
+                Timing: 07:00-22:00 Mon-Sun
               </div>
             </h3>
           </div>
@@ -195,6 +189,7 @@
               <div class="bold">
                 Party of upto 100 guests can be hosted
               </div>
+              <hr>
               <div class="bold">
                 Business dinning rooms avialble(upto 20 peoples)
               </div>
@@ -206,9 +201,9 @@
     <!--Reservation-->
     <!--Map-->
     <div class="text-center content-helper font">
-      <div class="container">
+      <div class="container padding-bottom-30px">
         <div class="row align-items-start">
-          <div class="col item ">
+          <div class="col item padding-bottom-30px">
             <h3 class="bold">Location
               <br>
               Aleksanterinkatu 46, 00100 Helsinki
@@ -219,22 +214,7 @@
               <iframe width="600" height="500" id="gmap_canvas"
                 src="https://maps.google.com/maps?q=Amarillo%20helsinki&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
-              <style>
-                .mapouter {
-                  position: relative;
-                  text-align: right;
-                  height: 500px;
-                  width: 600px;
-                }
-              </style><a href="https://www.embedgooglemap.net">embed google map without iframe</a>
-              <style>
-                .gmap_canvas {
-                  overflow: hidden;
-                  background: none !important;
-                  height: 500px;
-                  width: 600px;
-                }
-              </style>
+
             </div>
           </div>
         </div>
@@ -246,7 +226,7 @@
       <div class="container">
         <div class="row">
           <!-- Footer Location-->
-          <div class="col-md-4">
+          <div class="col-md-4 footer-section">
             <h4 class="text-uppercase mb-4">
               Contact
             </h4>
@@ -255,7 +235,7 @@
             </p>
           </div>
           <!-- Footer Social Icons-->
-          <div class="col-md-4">
+          <div class="col-md-4 footer-section">
             <h4 class="text-uppercase mb-4">
               Around the Web</h4>
             <a class="btn btn-outline-light btn-social mx-1" href="#!">
@@ -281,7 +261,7 @@
             </a>
           </div>
           <!-- Footer About Text-->
-          <div class="col-md-4">
+          <div class="col-md-4 footer-section">
             <h4 class="text-uppercase mb-4">
               E-mail
             </h4>

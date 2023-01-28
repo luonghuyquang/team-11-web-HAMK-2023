@@ -2,10 +2,11 @@ body {
     margin: auto;
     background-color: #D4A59A;
     font-size: larger;
-    width: 98%;
 }
 
-
+.nav{
+    background-color: #5C2018 !important;
+}
 img {
     width: 100%;
     height: 500px;
@@ -37,17 +38,13 @@ img {
     display: inline-table;
 }
 
-.col-md-4 {
-    padding: 0 0 0 20px;
-}
-
 .content-helper {
     padding-top: 5%;
     padding-bottom: 5%;
     color: black;
-    
 }
-.font{
+
+.font {
     font-family: 'Tahoma';
     font-size: 16px;
 }
@@ -81,21 +78,117 @@ img {
     height: 100%;
     display: inline-table;
 }
-.bold{
+.title {
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.bold {
     font-weight: 500;
     font-size: 40px;
 }
-                .mapouter {
-                  position: relative;
-                  text-align: center;
-                  height: 500px;
-                  width: 600px;
-                  margin: auto;
-                }
 
-                .gmap_canvas {
-                  overflow: hidden;
-                  background: none !important;
-                  height: 500px;
-                  width: 600px;
-                }
+.mapouter {
+    position: relative;
+    text-align: center;
+    height: 500px;
+    width: 600px;
+    margin: auto;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 600px;
+}
+  
+  div.gallery img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 4px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .gmap_canvas {
+        width: auto;
+    }
+    .bold {
+        font-weight: 500;
+        font-size: 22px;
+    }
+    .title {
+        font-weight: 500 !important;
+        font-size: 45px !important;
+    }
+    .padding-bottom-30px {
+        padding-bottom:30px;
+    }
+    div.gallery img {
+        width: 77%;
+    }
+ }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .gmap_canvas {
+        width: auto;
+    }
+    .footer-section {
+        padding-bottom: 2em;
+    }
+    .bold {
+        font-weight: 500;
+        font-size: 22px;
+    }
+    .title {
+        font-weight: 500;
+        font-size: 50px;
+    }
+    .padding-bottom-30px {
+        padding-bottom:30px;
+    }
+    .content-helper {
+        padding-bottom: 0;
+    }    
+ }
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }

@@ -4,13 +4,15 @@ body {
     font-size: larger;
 }
 
-
+.nav{
+    background-color: #5C2018 !important;
+}
 img {
     width: 100%;
     height: 500px;
     margin: auto;
     vertical-align: none;
-}
+}*/
 
 
 .item {

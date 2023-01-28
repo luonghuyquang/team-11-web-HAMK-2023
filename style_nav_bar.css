@@ -8,16 +8,20 @@
 
 .navbar {
 background-color: #5C2018; /* navbar background color */
-font-size: 16px;
-/*new font for the menu*/
-font-family: 'Tangerine';
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
 font-size: medium;
+text-align: right;
 }
 
 .navbar-brand {
 color: #f7ff03; /* text color of the navbar brand (Name of the restaurant) */
 font: Arial;
 font-size: 18px;
+}
+image{
+  height:100px;
+  width:200px;
 }
 
 .navbar-brand:hover {

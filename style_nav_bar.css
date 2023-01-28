@@ -28,6 +28,10 @@ color: #ffffff; /* text color of the navbar brand */
 color: #ffffff; /* text color of the navbar brand */
 }
 
+.navbar-nav{
+  text-align: right;
+}
+
 .navbar-nav .nav-link {
 color: #ffffff; /* text color of the navbar links */
 }
@@ -55,16 +59,32 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
       display: none; /* Hidden by default */
       position: fixed; /* Fixed/sticky position */
       bottom: 20px; /* Place the button at the bottom of the page */
-      right: 30px; /* Place the button 30px from the right */
+      right: 20px; /* Place the button 30px from the right */
       z-index: 99; /* Make sure it does not overlap other elements on the page */
-      border-color: white; /* Remove borders */
+      border-color: white; /* White borders */
       outline-color: rgb(215, 5, 5); /* Remove outline */
       background-color: #D4A59A; /* Set a background color */
       color: #5C2018; /* Text color */
       cursor: pointer; /* Add a hover effect */
-      padding: 15px; /* Some padding */
+      padding: 3px; /* Some padding */
       border-radius: 10px; /* Rounded corners */
 }
+
+#quangBtn {
+  display: none; /* Hide the button initially */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #D4A59A; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 3px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */
+}
+
 
 /*
 .header {

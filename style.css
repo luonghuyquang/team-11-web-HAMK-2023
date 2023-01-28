@@ -2,6 +2,7 @@ body{
   background-color:#D4A59A ;
   font-size: medium;
   color: rgb(37, 2, 2);
+  
  }
 
 .left{
@@ -102,11 +103,14 @@ body{
       width: 100%;
       display: none;
     }
+    
     .Un-order{
-      display:block;
+    display: block;
+    
      
     }
-              
+    
+                  
     li{
       display: inline;
       padding-right: 10px;
@@ -136,16 +140,17 @@ body{
   @media only screen and (min-width: 620px) {
   
     .Un-order{
-      display: none;
+      display: none;      
     
     }
-    
+        
   }
   @media only screen and (max-width: 292px) {
   
     .left, .center {
       width: 100%;
       display: none;
+      
     }
     .Un-order{
       display:block;

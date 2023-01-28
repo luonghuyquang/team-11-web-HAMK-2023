@@ -103,13 +103,18 @@ body{
       display: none;
     }
     .Un-order{
-      display:b;
+      display:block;
+     
     }
               
     li{
       display: inline;
+      padding-right: 10px;
+      text-align: center;
     }
-               
+    #line{
+      padding-right: 40px;
+    }         
     
      .right {
       width: 100%;
@@ -123,6 +128,9 @@ body{
     iframe{
       width: 95%;
     }
+    .min1{
+      display: none;
+    }
   } 
 
   @media only screen and (min-width: 620px) {
@@ -133,6 +141,39 @@ body{
     }
     
   }
+  @media only screen and (max-width: 292px) {
+  
+    .left, .center {
+      width: 100%;
+      display: none;
+    }
+    .Un-order{
+      display:block;
+     
+    }
+              
+    li{
+      display: inline;
+      padding-right: 10px;
+      text-align: center;
+    }
+    #line{
+      padding-right: 40px;
+    }         
+    
+     .right {
+      width: 100%;
+      display: contents;
+
+    }
+    .min1{
+      display: inline;
+    }
+    .min{
+      display: none;
+    }
+  }
+
 
 
 

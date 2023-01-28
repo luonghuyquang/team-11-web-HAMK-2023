@@ -4,9 +4,7 @@ body {
     font-size: larger;
 }
 
-.nav{
-    background-color: #5C2018 !important;
-}
+
 img {
     width: 100%;
     height: 500px;
@@ -14,21 +12,9 @@ img {
     vertical-align: none;
 }
 
-.frame {
-    float: left;
-    text-align: center;
-    display: flex;
-
-}
 
 .item {
     margin: auto;
-}
-
-.share-icon {
-    width: 35px;
-    height: 35px;
-    padding-left: 5px;
 }
 
 .wrapper {
@@ -42,11 +28,6 @@ img {
     padding-top: 5%;
     padding-bottom: 5%;
     color: black;
-}
-
-.font {
-    font-family: 'Tahoma';
-    font-size: 16px;
 }
 
 .bg-none {
@@ -79,14 +60,22 @@ img {
     height: 100%;
     display: inline-table;
 }
-.title {
+h1 {
     font-weight: 500;
-    font-size: 60px;
+    font-size: 55px;
+    font-family: 'Courgette', cursive;
 }
 
-.bold {
+h3 {
     font-weight: 500;
     font-size: 40px;
+    font-family: 'Courgette', cursive;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
 }
 
 .mapouter {
@@ -145,11 +134,11 @@ img {
     .gmap_canvas {
         width: auto;
     }
-    .bold {
+    h3 {
         font-weight: 500;
         font-size: 22px;
     }
-    .title {
+    h1 {
         font-weight: 500 !important;
         font-size: 45px !important;
     }
@@ -158,6 +147,9 @@ img {
     }
     div.gallery img {
         width: 77%;
+    }
+    p {
+        font-size: 22px;
     }
  }
 
@@ -169,11 +161,11 @@ img {
     .footer-section {
         padding-bottom: 2em;
     }
-    .bold {
+    h3 {
         font-weight: 500;
         font-size: 22px;
     }
-    .title {
+    h1 {
         font-weight: 500;
         font-size: 50px;
     }
@@ -183,6 +175,9 @@ img {
     .content-helper {
         padding-bottom: 0;
     }    
+    p {
+        font-size: 22px;
+    }
  }
 
  /* Small devices (landscape phones, less than 768px) */

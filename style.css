@@ -4,6 +4,13 @@ body{
   color: rgb(37, 2, 2);
  }
 
+.menu.team11 {
+  color: #5C2018; /* text color of the navbar links */
+  font-weight: lighter;
+  font-size: 30px;
+  font-family: 'Courgette', cursive;
+  }
+
 .left{
     float: left;
     color: brown;
@@ -25,14 +32,13 @@ body{
   text-align: center;
 }
 
-    .container {
+.container {
              width: 95%;
            /*  background-color: rgb(187, 195, 201);*/
              }
      
 #myh1{
     text-align: center;
-    
 }
 
 * {
@@ -73,28 +79,31 @@ body{
     max-width:100%;
   }
   
-  .menu:link {
+  .menu.team11:link {
     text-decoration: none;
     color:brown;
   }
   
-  .menu:visited {
+  .menu.team11:visited {
     text-decoration: none;
     color:brown;
   }
   
-  .menu:hover {
+  .menu.team11:hover {
     text-decoration:none;
     color:#f0ce21 ;
   }
   
-  .menu:active {
+  .menu.team11:active {
     text-decoration: none;
     color:#f7ff03;
   }
   p{
     text-align: center;
-    
+    color: #5C2018; /* text color of the navbar links */
+    font-weight: lighter;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
   }
   @media only screen and (max-width: 620px) {
   
@@ -173,7 +182,5 @@ body{
       display: none;
     }
   }
-
-
 
 
